@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-01-CuraKatalon" time="26" tests="3" failures="0" errors="0">
+   <testsuite name="TS-01-CuraKatalon" tests="3" failures="0" errors="0" time="26" timestamp="2018-12-18 20:17:38" hostname="aluno - LENOVO08.supera.com.br" id="Test Suites/TS-01-CuraKatalon">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aluno\\Katalon Studio\\teste-supera\\Reports\\TS-01-CuraKatalon\\20181218_201736"/>
+         <property name="logFiles" value="C:\\Users\\aluno\\Katalon Studio\\teste-supera\\Reports\\TS-01-CuraKatalon\\20181218_201736\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aluno - LENOVO08.supera.com.br"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.6.34"/>
+         <property name="sessionId" value="d9b8bd7a23e396a41f6edf8dd2e8e432"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC-01-Login" classname="Test Cases/TC-01-Login" status="PASSED">
+         <system-out><![CDATA[2018-12-18 20:17:39 - [TEST_CASE][PASSED] - Test Cases/TC-01-Login: Test Cases/TC-01-Login
+
+2018-12-18 20:17:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-18 20:17:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-18 20:17:40 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-18 20:17:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-18 20:17:43 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-12-18 20:17:45 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-12-18 20:17:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-18 20:17:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-18 20:17:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-18 20:17:46 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-18 20:17:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-18 20:17:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-18 20:17:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-18 20:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-18 20:17:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Visit Date (Required)_vi"), ""): Text '' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Visit Date (Required)_vi'
+
+2018-12-18 20:17:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Visit Date (Required)_vi'
+
+2018-12-18 20:17:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-18 20:17:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-02-marcarconsulta" classname="Test Cases/TC-02-marcarconsulta" status="PASSED">
+         <system-out><![CDATA[2018-12-18 20:17:47 - [TEST_CASE][PASSED] - Test Cases/TC-02-marcarconsulta: Test Cases/TC-02-marcarconsulta
+
+2018-12-18 20:17:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-18 20:17:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-18 20:17:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-18 20:17:50 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-12-18 20:17:52 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-12-18 20:17:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MarcarConsulta/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-18 20:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-18 20:17:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MarcarConsulta/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-18 20:17:53 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-18 20:17:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/MarcarConsulta/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-18 20:17:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-18 20:17:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MarcarConsulta/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-18 20:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-18 20:17:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/MarcarConsulta/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'  using regular expression
+
+2018-12-18 20:17:53 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'  using regular expression
+
+2018-12-18 20:17:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MarcarConsulta/Page_CURA Healthcare Service/input_Apply for hospital readm")): Object: 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/input_Apply for hospital readm' is clicked on
+
+2018-12-18 20:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/input_Apply for hospital readm' is clicked on
+
+2018-12-18 20:17:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MarcarConsulta/Page_CURA Healthcare Service/span_Visit Date (Required)_gly")): Object: 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/span_Visit Date (Required)_gly' is clicked on
+
+2018-12-18 20:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/span_Visit Date (Required)_gly' is clicked on
+
+2018-12-18 20:17:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MarcarConsulta/Page_CURA Healthcare Service/td_11")): Object: 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/td_11' is clicked on
+
+2018-12-18 20:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/td_11' is clicked on
+
+2018-12-18 20:17:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MarcarConsulta/Page_CURA Healthcare Service/textarea_Comment_comment"), "consulta"): Text 'consulta' is set on object 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2018-12-18 20:17:54 - [MESSAGE][PASSED] - Text 'consulta' is set on object 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2018-12-18 20:17:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MarcarConsulta/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2018-12-18 20:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2018-12-18 20:17:54 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/MarcarConsulta/Page_CURA Healthcare Service/p_consulta")): Object 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/p_consulta' is checked
+
+2018-12-18 20:17:54 - [MESSAGE][PASSED] - Object 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/p_consulta' is checked
+
+2018-12-18 20:17:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MarcarConsulta/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2018-12-18 20:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/MarcarConsulta/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2018-12-18 20:17:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-18 20:17:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-03-Historico" classname="Test Cases/TC-03-Historico" status="PASSED">
+         <system-out><![CDATA[2018-12-18 20:17:55 - [TEST_CASE][PASSED] - Test Cases/TC-03-Historico: Test Cases/TC-03-Historico
+
+2018-12-18 20:17:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-18 20:17:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-18 20:17:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-18 20:17:58 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-12-18 20:18:00 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-12-18 20:18:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Make Appointment")): Object: 'Object Repository/a_Make Appointment' is clicked on
+
+2018-12-18 20:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Make Appointment' is clicked on
+
+2018-12-18 20:18:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/input_Username_username'
+
+2018-12-18 20:18:01 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/input_Username_username'
+
+2018-12-18 20:18:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/input_Password_password'
+
+2018-12-18 20:18:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Password_password'
+
+2018-12-18 20:18:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Login")): Object: 'Object Repository/button_Login' is clicked on
+
+2018-12-18 20:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Login' is clicked on
+
+2018-12-18 20:18:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/select_Tokyo CURA Healthcare C"), "Seoul CURA Healthcare Center", true): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/select_Tokyo CURA Healthcare C'  using regular expression
+
+2018-12-18 20:18:02 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/select_Tokyo CURA Healthcare C'  using regular expression
+
+2018-12-18 20:18:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/input_Apply for hospital readm")): Object: 'Object Repository/input_Apply for hospital readm' is clicked on
+
+2018-12-18 20:18:02 - [MESSAGE][PASSED] - Object: 'Object Repository/input_Apply for hospital readm' is clicked on
+
+2018-12-18 20:18:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/input_Medicaid_programs")): Object: 'Object Repository/input_Medicaid_programs' is clicked on
+
+2018-12-18 20:18:02 - [MESSAGE][PASSED] - Object: 'Object Repository/input_Medicaid_programs' is clicked on
+
+2018-12-18 20:18:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/span_Visit Date (Required)_gly")): Object: 'Object Repository/span_Visit Date (Required)_gly' is clicked on
+
+2018-12-18 20:18:02 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Visit Date (Required)_gly' is clicked on
+
+2018-12-18 20:18:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/div_Visit Date (Required)_inpu")): Object: 'Object Repository/div_Visit Date (Required)_inpu' is clicked on
+
+2018-12-18 20:18:02 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Visit Date (Required)_inpu' is clicked on
+
+2018-12-18 20:18:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/td_28")): Object: 'Object Repository/td_28' is clicked on
+
+2018-12-18 20:18:02 - [MESSAGE][PASSED] - Object: 'Object Repository/td_28' is clicked on
+
+2018-12-18 20:18:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/textarea_Comment_comment"), "marcar consulta"): Text 'marcar consulta' is set on object 'Object Repository/textarea_Comment_comment'
+
+2018-12-18 20:18:02 - [MESSAGE][PASSED] - Text 'marcar consulta' is set on object 'Object Repository/textarea_Comment_comment'
+
+2018-12-18 20:18:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Book Appointment")): Object: 'Object Repository/button_Book Appointment' is clicked on
+
+2018-12-18 20:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Book Appointment' is clicked on
+
+2018-12-18 20:18:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2018-12-18 20:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2018-12-18 20:18:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_History")): Object: 'Object Repository/a_History' is clicked on
+
+2018-12-18 20:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/a_History' is clicked on
+
+2018-12-18 20:18:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/p_marcar consulta")): Object: 'Object Repository/p_marcar consulta' is clicked on
+
+2018-12-18 20:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/p_marcar consulta' is clicked on
+
+2018-12-18 20:18:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Go to Homepage")): Object: 'Object Repository/a_Go to Homepage' is clicked on
+
+2018-12-18 20:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Go to Homepage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-18 20:17:38 - [TEST_SUITE][PASSED] - TS-01-CuraKatalon: Test Cases/TC-03-Historico]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
